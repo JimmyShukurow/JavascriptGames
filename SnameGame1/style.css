@@ -14,7 +14,7 @@ body{
 }
 .wrapper {
     width: 65vmin;
-    height: 85vmin;
+    height: 75vmin;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -45,6 +45,7 @@ body{
 }
 
 .controls {
+    display: none;
     text-align: center;
 }
 
@@ -64,4 +65,20 @@ body{
 .controls i {
     color: #B8C6DC;
     padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper {
+        width: 90vmin;
+        height: 115vmin;
+    }
+    .game-details {
+        font-size: 1rem;
+        padding: 15px 27px;
+    }
+
+    .controls {
+        display: block;
+    }
+    
 }
