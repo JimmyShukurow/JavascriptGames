@@ -51,14 +51,14 @@ body{
 
 .controls .fa-arrow-up-long, .controls .fa-arrow-down-long {
     display: block;
-    margin-inline: 45%;
+    margin-inline: 42%;
     padding-block: 1%;
     margin-block: 1%;
     background: #1e6183;
 }
 .controls .fa-arrow-left-long, .controls .fa-arrow-right-long {
     padding-inline: 4%;
-    margin-inline: 8%;
+    margin-inline: 16%;
     background: #1e6183;
 }
 
