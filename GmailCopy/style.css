@@ -1,0 +1,36 @@
+.main {
+    position: absolute;
+    width: 400px;
+    border: 1px rgb(214, 208, 213) solid;
+    border-radius: 5px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main .header, .content {
+    text-align: center;
+}
+.main .header img{
+    margin-top: 50px;
+    width: 80px;
+    text-align: center;
+}
+
+.content input {
+    width: 300px;
+}
+
+.forgot-email, .learn-more {
+    color: #1a73e8;
+    font-weight: 500;
+    letter-spacing: .25px;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-inline: 10%;
+}
